@@ -15,5 +15,7 @@ main() {
     final win = new tron.BrowserWindow();
     win.loadURL("file://${nodejs.dirname}/client/index.html");
     final imgEmpty = tron.createEmpty();
+
+    print(imgEmpty.getSize());
   });
 }
