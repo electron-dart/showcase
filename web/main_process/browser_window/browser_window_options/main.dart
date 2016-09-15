@@ -15,7 +15,7 @@ main() {
     final lOptions = new BrowserWindowOptions(x: 0, y: 0);
     BrowserWindow win = new BrowserWindow(lOptions);
     win.loadURL("file://${nodejs.dirname}/client/index.html");
-    win.onClosed.listen((_) {
+    win.onClose.listen((_) {
       win = null;
     });
   });
