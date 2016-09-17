@@ -12,6 +12,8 @@ dependencies:
     git: https://github.com/electron-dart/nodejs.dart.git
   electron:
     path: ../electron.dart
+  simple_ajax:
+    git: https://github.com/tejainece/simple_ajax.git
 
 transformers:
 - dart_to_js_script_rewriter

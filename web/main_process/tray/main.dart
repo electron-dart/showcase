@@ -55,7 +55,6 @@ _setTray() {
   lTray.onDropText.listen((tron.EventTrayDropText event) {
     print("Text dropped!");
     print(event.text);
-    print(event.event);
   });
 
   new Timer(new Duration(seconds: 5), () {
